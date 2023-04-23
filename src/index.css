@@ -24,6 +24,7 @@ h1 {
 
 h2 {
   font-size: 2vw;
+  margin: 1rem;
 }
 
 h3 {
@@ -33,7 +34,8 @@ h3 {
 
 p {
   max-width: 30vw;
-  margin: 1rem auto;
+  margin: 1rem 1rem;
+  text-align: left;
 }
 
 ul.nav {
@@ -46,7 +48,6 @@ ul.nav {
 }
 
 li {
-  display: inline-block;
   margin: 0 1rem;
 }
 
