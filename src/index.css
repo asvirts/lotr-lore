@@ -25,6 +25,10 @@ a li:hover {
   color: var(--white)
 }
 
+h1 {
+  margin: 1rem;
+}
+
 h2 {
   font-size: 2vw;
 }
