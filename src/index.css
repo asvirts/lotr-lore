@@ -120,13 +120,27 @@ div.grid {
     text-align: left;
   }
 
-  img.ch-por {
-    max-width: 90%;
-    margin: 1rem;
+  img.por {
+    width: 100%;
+    height: 30%;
+    object-fit: cover;
+    margin: auto;
+  }
+
+  img.por-full {
+    width: 98%;
+    height: 30%;
+    object-fit: cover;
+    margin: auto;
+  }
+
+  ul {
+    max-width: 100%;
   }
 
   div.grid {
-    max-width: 100%;
+    width: 98%;
     display: block;
+    margin: 1rem auto;
   }
 }
