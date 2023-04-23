@@ -84,4 +84,9 @@ img.ch-por {
   li.list {
     text-align: left;
   }
+
+  img.ch-por {
+    max-width: 100%;
+    margin: 1rem;
+  }
 }
