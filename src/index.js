@@ -6,7 +6,6 @@ import {
 } from "react-router-dom"
 import Root from "./routes/root"
 import './index.css'
-import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { sendToVercelAnalytics } from './vitals'
 
