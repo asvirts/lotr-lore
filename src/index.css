@@ -47,6 +47,10 @@ nav {
   margin: auto;
 }
 
+ul {
+  padding: 0;
+}
+
 li {
   color: var(--gray);
   display: inline-block;
