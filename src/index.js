@@ -1,17 +1,27 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import BrowserRouter from 'react-router-dom'
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom"
+import Root from "./routes/root"
 import './index.css'
 import App from './App'
 import reportWebVitals from './reportWebVitals'
 import { sendToVercelAnalytics } from './vitals'
 
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+  },
+]);
+
 ReactDOM.render(
-  <BrowserRouter>
     <React.StrictMode>
+      <RouterProvider router={router} />
       <App />
-    </React.StrictMode>
-  </BrowserRouter>,
+    </React.StrictMode>,
   document.getElementById('root')
 );
 
