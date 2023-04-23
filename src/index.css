@@ -72,11 +72,16 @@ img.ch-por {
     margin: 1rem auto;
     text-align: left;
   }
+
   h2 {
     font-size: 3rem;
   }
   
   h3 {
     font-size: 2rem;
+  }
+
+  li.list {
+    text-align: left;
   }
 }
