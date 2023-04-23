@@ -20,7 +20,6 @@ const router = createBrowserRouter([
 ReactDOM.render(
     <React.StrictMode>
       <RouterProvider router={router} />
-      <App />
     </React.StrictMode>,
   document.getElementById('root')
 );
