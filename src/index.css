@@ -1,3 +1,9 @@
+:root {
+  --gold: #eaa500;
+  --white: white;
+  --black: black;
+}
+
 * {
   margin: 0;
 }
@@ -16,7 +22,7 @@ code {
 }
 
 nav {
-  background-color: #eaa500;
+  background-color: var(--gold);
   padding: 1rem;
 }
 
