@@ -53,7 +53,17 @@ li {
   margin: 0 1rem;
 }
 
+li.list {
+  display: block;
+  color: var(--white)
+}
+
 img.ch-por {
   max-width: 30vw;
   margin: 1rem;
+}
+
+/* HELPER CLASSES */
+.text-left {
+  text-align: left;
 }
