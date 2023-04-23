@@ -69,6 +69,7 @@ img.ch-por {
   p {
     max-width: 90%;
     margin: 1rem auto;
+    text-align: left;
   }
   h2 {
     font-size: 3rem;
