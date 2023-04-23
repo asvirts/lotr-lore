@@ -1,6 +1,9 @@
+import Nav from "../Nav";
+
 export default function Rohan() {
     return(
         <>
+            <Nav />
             <h3>Rohan</h3>
             <img src='https://tolkiengateway.net/w/images/0/0f/Jef_Murray_-_Edoras.jpg' className="ch-por" alt="Rohan" />
             <p>Rohan is a fictional kingdom of Men in J. R. R. Tolkien's fantasy setting of Middle-earth. Known for its horsemen, the Rohirrim, Rohan provides its ally Gondor with cavalry. Its territory is mainly grassland. The Rohirrim call their land the Mark or the Riddermark, names recalling that of the historical kingdom of Mercia, the region of Western England where Tolkien lived.</p>

@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom"
+import '../index.css'
+
 export default function Nav() {
     return (
         <ul>
-            <a href="#"><li>Home</li></a>
-            <a href="#characters"><li>Characters</li></a>
-            <a href="#places"><li>Places</li></a>
-            <a href="#films"><li>Films</li></a>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/characters">Characters</Link></li>
+            <li><Link to="/places">Places</Link></li>
+            <li><Link to="/films">Films</Link></li>
         </ul>
     )
 }

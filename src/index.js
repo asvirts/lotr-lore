@@ -9,10 +9,26 @@ import './index.css'
 import reportWebVitals from './reportWebVitals'
 import { sendToVercelAnalytics } from './vitals'
 
+import Characters from './components/characters/Gandalf'
+import Places from './components/places/Rohan'
+import Films from './components/films/Fellowship'
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Root />,
+  },
+  {
+    path: "/characters",
+    element: <Characters />,
+  },
+  {
+    path: "/places",
+    element: <Places />,
+  },
+  {
+    path: "/films",
+    element: <Films />,
   },
 ]);
 
