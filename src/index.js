@@ -9,9 +9,12 @@ import './index.css'
 import reportWebVitals from './reportWebVitals'
 import { sendToVercelAnalytics } from './vitals'
 
-import Characters from './components/characters/Gandalf'
-import Places from './components/places/Rohan'
-import Films from './components/films/Fellowship'
+import Characters from './components/Characters'
+import Places from './components/Places'
+import Films from './components/Films'
+import Gandalf from './components/characters/Gandalf'
+import Rohan from './components/places/Rohan'
+import Fellowship from './components/films/Fellowship'
 
 const router = createBrowserRouter([
   {
@@ -23,12 +26,24 @@ const router = createBrowserRouter([
     element: <Characters />,
   },
   {
+    path: "/characters/gandalf",
+    element: <Gandalf />,
+  },
+  {
     path: "/places",
     element: <Places />,
   },
   {
+    path: "/places/rohan",
+    element: <Rohan />,
+  },
+  {
     path: "/films",
     element: <Films />,
+  },
+  {
+    path: "/films/fellowship",
+    element: <Fellowship />,
   },
 ]);
 

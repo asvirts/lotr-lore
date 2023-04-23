@@ -1,6 +1,7 @@
 :root {
   --gold: #eaa500;
   --gray: #282c34;
+  --lt-gray: #555;
   --white: white;
   --black: black;
 }
@@ -15,14 +16,6 @@ body {
   font-family: system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  text-decoration: none;
-}
-
-a li:hover {
-  color: var(--white)
 }
 
 h1 {
@@ -43,28 +36,34 @@ p {
   margin: 1rem auto;
 }
 
-nav {
+ul.nav {
   background-color: var(--gold);
   padding: 1rem;
-  position: fixed;
+  margin: 0;
+  position: sticky;
   width: 100%;
-  margin: auto;
-}
-
-ul {
-  padding: 0;
+  text-align: center;
 }
 
 li {
-  color: var(--gray);
   display: inline-block;
   margin: 0 1rem;
 }
 
-li.list {
-  display: block;
-  color: var(--white);
-  margin: 0;
+li.nav {
+  text-decoration: none;
+  display: inline-block;
+  color: var(--black);
+  margin: 0 1rem;
+}
+
+a {
+  color: var(--black);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--lt-gray);
 }
 
 img.ch-por {
