@@ -24,18 +24,28 @@ h1 {
 
 h2 {
   font-size: 2vw;
-  margin: 1rem;
+  text-align: center;
 }
 
 h3 {
   font-size: 1vw;
+  text-align: center;
+}
+
+h3.detail {
   margin: 1rem;
 }
 
 p {
-  max-width: 30vw;
-  margin: 1rem 1rem;
+  max-width: 50vw;
+  margin: 1rem auto;
   text-align: left;
+}
+
+ul {
+  max-width: 50%;
+  display: block;
+  margin: auto;
 }
 
 ul.nav {
@@ -45,6 +55,7 @@ ul.nav {
   position: sticky;
   width: 100%;
   text-align: center;
+  max-width: 100%;
 }
 
 li {
@@ -67,9 +78,25 @@ a:hover {
   color: var(--lt-gray);
 }
 
-img.ch-por {
-  max-width: 30vw;
+img.por {
+  width: 100%;
+  height: 16vw;
+  object-fit: cover;
   margin: 1rem;
+}
+
+img.por-full {
+  width: 50%;
+  height: 25vw;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
+
+div.grid {
+  width: 31.5%;
+  margin: 1rem;
+  display: inline-block;
 }
 
 /* MEDIA QUERIES */
@@ -96,5 +123,10 @@ img.ch-por {
   img.ch-por {
     max-width: 90%;
     margin: 1rem;
+  }
+
+  div.grid {
+    max-width: 100%;
+    display: block;
   }
 }
