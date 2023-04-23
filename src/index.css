@@ -63,7 +63,18 @@ img.ch-por {
   margin: 1rem;
 }
 
-/* HELPER CLASSES */
-.text-left {
-  text-align: left;
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 992px) {
+  p {
+    max-width: 90%;
+    margin: 1rem auto;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  
+  h3 {
+    font-size: 2rem;
+  }
 }
