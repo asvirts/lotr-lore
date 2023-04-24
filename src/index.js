@@ -12,13 +12,13 @@ import { sendToVercelAnalytics } from './vitals'
 import Characters from './components/Characters'
 import Places from './components/Places'
 import Films from './components/Films'
-import Gandalf from './components/characters/Gandalf'
-import Iluvatar from './components/characters/Iluvatar'
 import Rohan from './components/places/Rohan'
 import Fellowship from './components/films/Fellowship'
 import Morgoth from './components/characters/Morgoth'
 import Error from './components/Error'
 import TomBombadill from './components/characters/TomBombadill'
+import Character from './components/characters/Character'
+
 
 const router = createBrowserRouter([
   {
@@ -31,11 +31,11 @@ const router = createBrowserRouter([
   },
   {
     path: "/characters/gandalf",
-    element: <Gandalf />,
+    element: <Character name="Gandalf" img="https://assetsio.reedpopcdn.com/magic-the-gathering-tales-of-middle-earth-gandalf-friend-shire.png?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp" desc="Gandalf is a wizard, one of the Istari order, and the leader of the Fellowship of the Ring. He is a wise and powerful being who is dedicated to fighting evil. Gandalf is a mentor to Frodo Baggins and the other members of the Fellowship, and he plays a key role in their quest to destroy the One Ring." />,
   },
   {
     path: "/characters/iluvatar",
-    element: <Iluvatar />,
+    element: <Character name="Eru Ilúvatar" img="https://qph.cf2.quoracdn.net/main-qimg-56237f57454ed132c470978e968cbb82-lq" desc="Eru Ilúvatar is the supreme being in J. R. R. Tolkien's legendarium. He is the creator of all things, including the Ainur, the Valar, and the Maiar. Eru is also the source of all power and knowledge. Eru is a benevolent being who desires only good for his creation. He is patient and forgiving, but he is also just and will not tolerate evil. Eru is a mystery to even the Valar, but he is always present and watching over his creation. Eru is a powerful being, but he is not omnipotent. He cannot violate the free will of his creations. However, he can intervene in the world when necessary. For example, he created the Sun and Moon to light the world after Melkor had corrupted the stars. Eru is a loving and compassionate being. He cares for all of his creation, and he is always willing to forgive those who repent. Eru is a source of hope and inspiration for all who believe in him." />,
   },
   {
     path: "/characters/morgoth",
