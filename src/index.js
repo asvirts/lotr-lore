@@ -46,6 +46,10 @@ const router = createBrowserRouter([
     element: <TomBombadill />,
   },
   {
+    path: "/characters/frodo-baggins",
+    element: <Character name="Frodo Baggins" img="https://insidethemagic.net/wp-content/uploads/2022/03/Elijah-Wood-Frodo-Baggins-LOTR.jpg" desc="Frodo Baggins is a hobbit who inherits the One Ring from his cousin Bilbo Baggins. He is a kind, compassionate, and loyal hobbit who is willing to sacrifice everything to destroy the Ring. He is joined by a fellowship of companions on his journey, including Samwise Gamgee, Merry Brandybuck, and Pippin Took. Together, they face many dangers on their way to Mordor, where the Ring must be destroyed. Frodo is a true hero, and his story is one of courage, friendship, and hope." />,
+  },
+  {
     path: "/places",
     element: <Places />,
   },

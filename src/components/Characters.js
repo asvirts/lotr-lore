@@ -30,6 +30,12 @@ export default function Characters() {
                     <h3>Tom Bombadill</h3>
                 </Link>
             </div>
+            <div className="grid">
+                <Link to="/characters/frodo-baggins">
+                    <img src='https://insidethemagic.net/wp-content/uploads/2022/03/Elijah-Wood-Frodo-Baggins-LOTR.jpg' className="por" alt="Frodo Baggins" />
+                    <h3>Frodo Baggins</h3>
+                </Link>
+            </div>
         </>
     )
 }
