@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import '../index.css'
+import ModeToggle from "./ModeToggle"
 
 export default function Nav() {
     return (
@@ -8,6 +9,7 @@ export default function Nav() {
             <li className="nav"><Link to="/characters">Characters</Link></li>
             <li className="nav"><Link to="/places">Places</Link></li>
             <li className="nav"><Link to="/films">Films</Link></li>
+            <ModeToggle />
         </ul>
     )
 }

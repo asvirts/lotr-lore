@@ -100,6 +100,20 @@ div.grid {
   display: inline-block;
 }
 
+button.primary {
+  background-color: transparent;
+  color: var(--lt-gray);
+  border: 1px solid var(--lt-gray);
+  border-radius: 3px;
+  padding: .5rem 1rem;
+}
+
+button.primary:hover {
+  color: var(--gray);
+  border: 1px solid var(--gray);
+  cursor: pointer;
+}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 992px) {
@@ -145,3 +159,4 @@ div.grid {
     margin: 1rem auto;
   }
 }
+
