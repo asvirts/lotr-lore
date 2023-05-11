@@ -15,7 +15,6 @@ import Morgoth from "./components/characters/Morgoth";
 import Error from "./components/Error";
 import TomBombadill from "./components/characters/TomBombadill";
 import Character from "./components/characters/Character";
-import Nav from "./components/Nav";
 
 const router = createBrowserRouter([
   {
@@ -88,7 +87,6 @@ const router = createBrowserRouter([
 
 ReactDOM.render(
   <React.StrictMode>
-    <Nav />
     <RouterProvider router={router} />
   </React.StrictMode>,
   document.getElementById("root")
