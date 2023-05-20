@@ -12,6 +12,12 @@ Our website will feature:
 - Exclusive interviews with Tolkien experts
 - And much more!
 
-We're constantly adding new content, so be sure to check back often. And if you have any questions, don't hesitate to contact us.
+Technology used to build website:
+
+- React (with React Router v6)
+- NPM, Node.js
+- HTML, CSS
 
 **Enjoy your journey through Middle-earth!**
+
+Vist the site: https://lotr-lore.vercel.app/
